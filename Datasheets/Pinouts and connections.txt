@@ -1,0 +1,68 @@
+Pinouts and connections
+MINI54ZAN:
+
+1 - voltage divider (10K from GND and 10K from VBAT) - used to detect battery voltage
+
+2 - reset pad
+
+3 - LED3-
+
+4 - NC
+
+5 - NC
+
+6 - MC32x0 INT
+
+7 - I2C SDA (MC32x0, MPU-3050)
+
+8 - I2C SCL (MC32x0, MPU-3050)
+
+9 - MPU-3050 INT
+
+10 - NC
+
+11 - H107: NC, H107L: A7105 CKO
+
+12 - GND
+
+13 - H107: unpopulated pad, H107L: LED5+
+
+14 - MOSFET gate for motor front, left
+
+15 - MOSFET gate for motor back, left
+
+16 - MOSFET gate for motor back, right
+
+17 - MOSFET gate for motor front, right
+
+18 - H107: NC, H107L, LED6+
+
+19 - SWDCLK
+
+20 - SWDIO
+
+21 - NC
+
+22 - NC
+
+23 - NC
+
+24 - LED4-
+
+25 - NC
+
+26 - NC
+
+27 - H107: VREG, H107L: NC
+
+28 - VREG
+
+29 - A7105 GIO1
+
+30 - A7105 SDIO
+
+31 - A7105 SCK
+
+32 - A7105 SCS
+
+The two LEDs on the PCB are connected in parallel with LED3 and LED4 respectively.
